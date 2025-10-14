@@ -65,6 +65,11 @@ body {
 
 #navbar {
   background-color: white;
+  max-width: 720px;
+    margin-top:300px;
+    font:50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #navbar ul {
@@ -106,8 +111,16 @@ main {
     flex: 1;
     padding: 20px;
     order: 2;
+    text-align: center;
+    max-width:720px;
+    max-height: 900px;
+    font-size: 20px;
+    border-radius: 2.5%;
+    margin: auto;
 }
-
+.dropdown {
+    font-size: 25px;
+}
 .dropdown-content {
   display: none;
   position: absolute;
