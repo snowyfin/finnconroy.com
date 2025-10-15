@@ -65,6 +65,10 @@ body {
 
 #navbar {
   background-color: white;
+  max-width: 720px;
+  margin-left:5%;
+    margin-top:80px;
+    font:50px;
 }
 
 #navbar ul {
@@ -94,20 +98,21 @@ body {
     display: flex;
 }
 
-aside {
-    background-color: white;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-}
-
 main {
     background-color:  white;
     flex: 1;
     padding: 20px;
     order: 2;
-}
+    text-align: justify;
+    max-width:70%;
+    max-height: 900px;
+    font-size: 18px;
+    border-radius: 2.5%;
 
+}
+.dropdown {
+    font-size: 25px;
+}
 .dropdown-content {
   display: none;
   position: absolute;
