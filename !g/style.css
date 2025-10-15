@@ -107,11 +107,10 @@ body {
 main {
     background-color:  white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+    text-align: center;
     flex: 1;
     padding: 20px;
     order: 2;
-    text-align: center;
     max-width:70%;
     max-height: 900px;
     font-size: 18px;
@@ -122,6 +121,7 @@ main {
 .dropdown {
     font-size: 25px;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
