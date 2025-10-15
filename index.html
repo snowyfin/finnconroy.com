@@ -6,39 +6,13 @@
   </head>
   <body>
     <script src="./oneko.js"></script>
-    <div id="headerArea">
-      <nav id="navbar">
-        <img src="/!f/portfolio.png" style="width: 200px;position: absolute;z-index: 2;margin-top:-120px;">
-        <ul style="font-family: Patua-One;">
-          <li>
-            <a href="/index.html">HOME</a>
-          </li>
-          <li>
-            <div class="dropdown"> HIGHSCHOOL <div class="dropdown-content">
-                <a href="/materials/handtools.html">Materials & Processing 1</a>
-                <a href="/engineering/Rube-Goldberg.html">Engineering & Design</a>
-                <a href="/materials2/budget.html">Materials & Processing 2</a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown"> TSA <div class="dropdown-content">
-                <a href="/TSA/Architect.html">2025 Architectural Design Project</a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown"> PERSONAL <div class="dropdown-content">
-                <a href="https://blizzardfox.net/">Blizzardfox.net</a>
-                <a href="/personal/ham.html">Ham Radio</a>
-              <a>GlowForge</a>
-              <a>Sewing</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#includedContent").load("/!g/header.html");
+      });
+    </script>
+    <div id="includedContent"></div>
     <div id="flex">
       <main>
           <h3 style="text-align: left;">About me</h3>
