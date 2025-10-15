@@ -112,7 +112,6 @@ main {
     padding: 20px;
     order: 2;
     max-width:70%;
-    max-height: 900px;
     font-size: 18px;
     border-radius: 2.5%;
     margin:auto;
@@ -124,6 +123,7 @@ main {
 
 .dropdown-content {
   display: none;
+  border-radius: 2.5%;
   position: absolute;
   background-color: #f1f1f1;
   min-width:160px;
