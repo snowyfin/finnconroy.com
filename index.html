@@ -6,44 +6,16 @@
   </head>
   <body>
     <script src="./oneko.js"></script>
-    <div id="headerArea">
-      <nav id="navbar" style="max-width: 720px;margin-top:225px;font:50px;margin-left: auto;margin-right: auto;">
-        <img src="/!f/portfolio.png" style="width: 750px;position: absolute;margin-top: -200px;z-index: 50;">
-        <ul style="font-family: Patua-One;">
-          <li>
-            <a href="/index.html">HOME</a>
-          </li>
-          <li>
-            <div class="dropdown" style="font-size: 25px;"> HIGHSCHOOL <div class="dropdown-content">
-                <a href="/materials/handtools.html">Materials & Processing 1</a>
-                <a href="/engineering/Rube-Goldberg.html">Engineering & Design</a>
-                <a href="/materials2/budget.html">Materials & Processing 2</a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown" style="font-size: 25px;"> TSA <div class="dropdown-content">
-                <a href="/TSA/Architect.html">2025 Architectural Design Project</a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="dropdown" style="font-size: 25px;"> PERSONAL <div class="dropdown-content">
-                <a href="https://blizzardfox.net/">Blizzardfox.net</a>
-                <a href="/personal/ham.html">Ham Radio</a>
-              <a>GlowForge</a>
-              <a>Sewing</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $("#includedContent").load("/!g/header.html");
+      });
+    </script>
+    <div id="includedContent"></div>
     <div id="flex">
-      <main style="text-align:center;max-width:720px; max-height: 900px;font-size: 20px;border-radius: 2.5%;margin:auto;">
-        <p>
+      <main >
           <strong style="color: #1D5B79;">About me</strong>
-        </p>
         <p style="text-align: left;"> Hello! I'm Finn Conroy. Im currently a high school student, here I store projects that I have done throughout highschool. As of Jan 29, 2024 the two classes that are included on this site are Materials & Processing 1, and Engineering & Design.</p>
         <h3 style="text-align: left;">Some things you should know</h3>
         <ul style="text-align: left;">
@@ -55,10 +27,14 @@
         <p style="text-align: left;">I like to code, and learn a lot about many subjects. I think that when I get into college I am going to go for an architecture degree.</p>
         <hr>
         <h2>How I learned as a student this year.</h2>
-        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSvce8uDYBizygRXetp8HT-d4Jse8OXebYCW6poQQxdz9kmaTkrP0O_KDa2ZcbP_RE4JA9aQ3sENNKo/pub?embedded=true" width="700px" height="1200px"></iframe>
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSvce8uDYBizygRXetp8HT-d4Jse8OXebYCW6poQQxdz9kmaTkrP0O_KDa2ZcbP_RE4JA9aQ3sENNKo/pub?embedded=true" width="700px" height="900"></iframe>
         <hr>
-        <p>BY-NC-SA ©2023-2025 Snowfin <a href="https://github.com/snowyfin/school-portfolio">Github</a>
-        </p>
+         <script>
+          $(function() {
+            $("#footerContent").load("/!g/footer.html");
+          });
+        </script>
+      <div id="footerContent"></div>
       </main>
     </div>
   </body>
