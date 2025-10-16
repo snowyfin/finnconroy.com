@@ -113,7 +113,7 @@ main {
     order: 2;
     max-width:70%;
     font-size: 18px;
-    border-radius: 2.5%;
+    border-radius: 20px;
     margin:auto;
     margin-bottom:10px;
 }
