@@ -165,7 +165,7 @@ strong {
     height: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) or (orientation: portrait){
         main {
             background-color:  white;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
