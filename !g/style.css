@@ -81,6 +81,10 @@ strong {
     margin-top:-5px;
     font-family: New-Astro;
 }
+#logo-header-image {
+    max-width:180px;
+    z-index: 2;
+}
 
 #container {
 
@@ -201,6 +205,9 @@ strong {
         }
         .dropdown:focus .dropdown-content {display: block; font-family: Patua-One;}
         #logo-header {
-            width:100%;
+            max-width:100%;
+        }
+        #logo-header-image {
+            width:100%;z-index: 2;
         }
     }
