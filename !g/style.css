@@ -195,7 +195,8 @@ strong {
         font-family: Patua-One;
         }
         #navbar ul {
-            max-width:20%;
+            max-width:30%;
+            text-overflow: ellipsis;
             text-align:center;
             position:absolute;
             display: block;
