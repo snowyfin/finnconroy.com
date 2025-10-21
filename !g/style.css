@@ -220,4 +220,10 @@ strong {
         margin-top:-5px;
         font-family: New-Astro;
             }
+            #navbar {
+  background-color: white;
+  max-width: 900px;
+    margin-top:10px;
+    font:30px;
+}
     }
