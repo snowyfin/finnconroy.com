@@ -172,12 +172,12 @@ strong {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: center;
             flex: 1;
-            padding: 20px;
+            padding: 5px;
             order: 2;
-            max-width:70%;
+            max-width:65%;
             font-size: 18px;
             border-radius: 20px;
-            margin-right:0;
+            margin-right:5px;
             margin-bottom:10px;
         }
         .dropdown {
