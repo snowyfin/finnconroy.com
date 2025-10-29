@@ -2,7 +2,7 @@
     --content: #94AF9F;
 }
 /*Included Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wdth,wght@75,500&display=swap');
+@font-face{font-family: Special Gothic;src: url('./!g/SpecialGothic_Condensed-Medium.ttf')}
 @font-face{font-family: Josefin-Sans;src: url('./!g/JosefinSans-VariableFont_wght.ttf')}
 @font-face{font-family: New-Astro;src: url('./!g/New\ Astro\ Regular.otf')}
 @font-face{font-family: Patua-One;src: url('./!g/PatuaOne-Regular.ttf')}
