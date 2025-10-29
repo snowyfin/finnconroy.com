@@ -2,19 +2,10 @@
     --content: #94AF9F;
 }
 /*Included Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wdth,wght@75,450&display=swap');
 @font-face{font-family: Josefin-Sans;src: url('./!g/JosefinSans-VariableFont_wght.ttf')}
 @font-face{font-family: New-Astro;src: url('./!g/New\ Astro\ Regular.otf')}
 @font-face{font-family: Patua-One;src: url('./!g/PatuaOne-Regular.ttf')}
-
-.special-gothic-<uniquifier> {
-  font-family: "Special Gothic", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 
 p {
     text-indent: 30pt;
