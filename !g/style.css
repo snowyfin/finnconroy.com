@@ -178,17 +178,12 @@ strong {
             margin-right:5px;
             margin-bottom:10px;
         }
-        .headerarea {
-    width: 100%;
-    background-size: 100%;
-    font-family: 'Special Gothic', sans-serif;
-    position:absolute;
-}
         .dropdown {
              font-size: 25px;
              height:100%;
             }
         .dropdown-content {
+        font-size: 15px;
         display: none;
         border-radius: 2.5%;
         position: absolute;
